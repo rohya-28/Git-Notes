@@ -41,7 +41,7 @@ To check Version :  git --Version
 
 17.To check a local and remote log :  
 
-17.To Push a code on git : git push 
+17.To Push a code on git : git push  origin master
 
 18.To push a code on same commit after some changes :  git commit --amend 
 
