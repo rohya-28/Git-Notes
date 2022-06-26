@@ -1,0 +1,52 @@
+GitHub
+--------------------------------------------------------------------
+To check Version :  git --Version
+--------------------------------------------------------------------
+
+1.To Initialize a Repository : git init
+
+2.To Create a local copy of Repository that already exist on remote :  git clone <URL>
+
+3.To check Repository Status :  git Status
+    By default Branch is Master
+
+4.To check what difference is made on Repository : git diff
+
+5.There are two stages on Repository 1 Staged 2 Upstage
+  Make Sure the code on Staged 
+
+6.To Make Staged a code :   git add . 
+
+7.To Make a commit :  git commit -m "Message Here"
+
+8.To check git logs :  git log
+
+9.To check what changes are made on a commit :  git show  <commit id>
+
+10.To get current Branch :  git Branch 
+
+11.To make a new Branch :  git Branch <BranchName>
+
+12.To switched a on Branch :   git checkout <BranchName>
+
+13.To delete a Branch :  git Branch -d <BranchName>
+
+14.To Merge a branch  :  git <BranchName>
+
+15.To reset undo a commit branch :   git reset --hard HEAD^
+   Code and commit will delete
+
+16.To reset undo a commit branch :   git reset --soft <Id>
+   Here Commit remove but Code Stayed
+
+17.To check a local and remote log :  
+
+17.To Push a code on git : git push 
+
+18.To push a code on same commit after some changes :  git commit --amend 
+
+
+
+
+
+
